@@ -1,8 +1,29 @@
-Symtoms(common), type-1 
-increased thirst and urination 
-increased hunger 
-fatigue 
-blurred vision 
-numbness or tingling in the feet or hands 
-sores that do not heal 
-unexplained weight loss 
+Type-1,Type-1(Kids),Insipidus,Insipidus(Kids),Type-2(Kids),Type-2,Retinopathy,Symptoms(common),Symptoms(male),Symptoms(female),Brittle,Symptoms(female_pregnant),Causes(female_pregnant),Ketoacidosis,Coma,Hyperglycemia,Skin_Rash,Skin_Rash(General),Skin_Irritation,Foot_Neuropathy,Foot_Neuropathy(Foot_Ulcers)
+ thirst (polydipsia),Increased thirst,Being extremely thirsty,"Heavy, wet diapers",Increased thirst,Increased thirst,gradually worsening vision,Increased thirst, Decreased sex drive, Dry and itchy skin,Celiac disease,Frequent urination,Heart disease,Peeing more often than usual (frequent urination),Tiredness,High blood sugar,Blisters (bullosis diabeticorum),Acanthosis nigricans (AN),Allergic reactions,Darkened skin on the affected area,"Any changes to the skin or toenails, including cuts, blisters, calluses or sores"
+ constant hunger,"Frequent urination, possibly bed-wetting in a toilet-trained child",Producing large amounts of pale urine,Bed-wetting,Frequent urination,Frequent urination,sudden vision loss,"Weak, tired feeling", erectile dysfunction, frequent yeast infections or urinary tract infections,Eating disorders, Nausea, High blood pressure,Extreme thirst,Abdominal pain,Increased thirst and/or hunger, Diabetes-related dermopathy,Disseminated granuloma annulare, Bacterial infections,Diminished ability to sense hot or cold,Discharge of fluid or pus
+ weight loss,Extreme hunger,Frequently needing to get up to urinate during the night,Trouble sleeping,Increased hunger,Increased hunger,shapes floating in your field of vision ,Blurred vision, decreased muscle strength.,,Gastroparesis, Thirst, Inactivity,Dehydration,Shortness of breath,Blurred vision,Digital sclerosis,Eruptive xanthomatosis,"Dry, itchy skin",Loss of hair in the area,Foul smell
+ vision changes,Unintentional weight loss,Preferring cold drinks,Fever,Fatigue,Unintended weight loss,blurred or patchy vision,Numbness or tingling in the hands or feet,,,adrenal insufficiency, Tiredness, Obesity,Headache,Increased urination,Frequent urination (peeing),Necrobiosis lipoidica diabeticorum (NLD), Vitiligo, Fungal infections,Numbness,Pain
+    Increased thirst,Fatigue,,Vomiting,Blurry vision,Fatigue,eye pain or redness,Slow-healing sores or cuts,,,hypothyroidism,, Personal or family history of GD,High amounts of ketones in your pee or blood (as shown by at-home urine ketone test strips or a blood meter test),Weak pulse,Headache,Diabetes Foot Syndrome, Skin tags,,Pain,Redness
+    Frequent urination,Irritability or behavior changes,,Constipation,"Darkened areas of skin, most often around the neck or in the armpits and groin",Blurred vision,difficulty seeing in the dark,Unplanned weight loss,,,Stress,, Polycystic ovary syndrome (PCOS),High blood glucose (blood sugar) levels (over 250 mg/dL),Drowsiness,"Fatigue (feeling weak, tired)",,Lichen planus,,Tingling,Skin discoloration
+    Extreme hunger,Fruity-smelling breath,,Delayed growth,"Unintended weight loss, although this is less common in children with type 2 diabetes than in children with type 1 diabetes",Slow-healing sores,,Frequent urination,,,anxiety,, Previous birth of a baby weighing nine pounds or more,Nausea and vomiting,Walking unsteadily,Weight loss,,,,,Swelling
+    Unexplained weight loss,,,Weight loss,Frequent infections,Frequent infections,,Frequent unexplained infections,,,depression,,,Abdominal pain,Increased thirst,Vaginal and skin infections,,,,,
+    Presence of ketones in the urine (ketones are a byproduct of the breakdown of muscle and fat that happens when there's not enough available insulin),,,,,Numbness or tingling in the hands or feet,,Dry mouth,,,"Dizziness, weakness or shaking",,,Shortness of breath,Rapid heart rate,Slow-healing cuts and sores,,,,,
+    Fatigue,,,,,"Areas of darkened skin, usually in the armpits and neck",,increased thirst and urination,,,Fast heart rate,,,Fruity-smelling breath,Dry mouth,Vomiting,,,,,
+    Irritability,,,,,,,increased hunger,,,Irritability or confusion,,,Feeling very tired or weak,Fruity smell to your breath,Dehydration,,,,,
+    Blurred vision,,,,,,,fatigue,,,Pale skin,,,Feeling disoriented or confused,Hunger,Unusual fruity smell on the breath,,,,,
+    Slow-healing sores,,,,,,,blurred vision,,,Restless sleep,,,Decreased alertness,Weakness and tiredness,Deep labored breathing or hyperventilation,,,,,
+"    Frequent infections, such as gums or skin infections and vaginal infections",,,,,,,numbness or tingling in the feet or hands,,,Sweating,,,,Sweating,Rapid heartbeat,,,,,
+ vomiting or stomach pains ,,,,,,,sores that do not heal,,,Sudden hunger,,,,Fast breathing,Confusion and disorientation,,,,,
+,,,,,,,unexplained weight loss,,,Blurry vision,,,,"Shakiness, nervousness and/or anxiety",Coma,,,,,
+,,,,,,,,,,"Fatigue (feeling weak, tired)",,,,Nausea,,,,,,
+,,,,,,,,,,Frequent urination (peeing),,,,Confusion and problems communicating,,,,,,
+,,,,,,,,,,Headache,,,,"Light-headedness, dizziness",,,,,,
+,,,,,,,,,,Skin infections and slow-healing cuts,,,,Hunger,,,,,,
+,,,,,,,,,,Thirst or hunger,,,,Drinking too much alcohol,,,,,,
+,,,,,,,,,,Confusion,,,,Eating too little,,,,,,
+,,,,,,,,,,Dehydration,,,,Exercising too much,,,,,,
+,,,,,,,,,,Fast heart rate,,,,Taking too much insulin,,,,,,
+,,,,,,,,,,Fruity-smelling breath,,,,,,,,,,
+,,,,,,,,,,Trouble breathing,,,,,,,,,,
+,,,,,,,,,,Vomiting,,,,,,,,,,
+,,,,,,,,,,Coma,,,,,,,,,,
