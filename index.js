@@ -7,7 +7,7 @@ const fs = require('fs');
 
 const writeStream = fs.createWriteStream('Diabetes.csv');
 // Write Headers
-writeStream.write(`Symtoms(common), type-1 \n`);
+writeStream.write(`Symtoms(common), type-1, type-1-kids, type-2, type-2-kids, insipidus , insipidus-kids, male, female, female-pregnant, female-pregnant-causes, skin-irritation, skin-rash, skin-rash-general, ketoacidosis, foot-neuropathy, foot-neuropathy-foot-ulcers, coma, hyperglycemia, brittle, retinopathy \n`);
 const app = express();
 const url_1 = 'https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes#symptoms';
 const url_2 = 'https://www.who.int/news-room/fact-sheets/detail/diabetes';
@@ -68,7 +68,7 @@ axios(url_1)
         symptom_common: symptom
       });
       // Write Row To CSV
-      writeStream.write(`${symptom} \n`);
+      writeStream.write(`${symptom},  \n`);
     });
     //type 1 diabetes
     // const type1 = $('.health-detail-content p:nth-of-type(6) a:nth-of-type(4)').text();
@@ -107,8 +107,6 @@ axios(url_3)
           symptom_diab1: item
         });
       })
-      // Write Row To CSV
-      // writeStream.write(`${symptom} \n`);
     })
   }).catch(err => console.error(err));
 
@@ -124,7 +122,7 @@ axios(url_4)
         symptom_diab2: item.trim()
       });
     })
-    console.log(symp_diab2);
+    // console.log(symp_diab2);
 
   }).catch(err => console.error(err));
 
@@ -148,8 +146,11 @@ axios(url_5)
       });
     });
 
-    console.log(symp_insipidus)
-    console.log(symp_insipidus_kids)
+    // console.log(symp_insipidus)
+    // console.log(symp_insipidus_kids)
+
+    // Write Row To CSV
+    writeStream.write(`${symp_insipidus}, ${symp_insipidus_kids}  \n`);
 
   }).catch(err => console.error(err));
 
@@ -191,10 +192,10 @@ axios(url_6)
       symptom_diab1: data_arr3[0].split(',')[1].split('and')[0]
     })
 
-    console.log(symp_female)
-    console.log(symp_male)
-    console.log(symptoms)
-    console.log(symp_diab1)
+    // console.log(symp_female)
+    // console.log(symp_male)
+    // console.log(symptoms)
+    // console.log(symp_diab1)
   }).catch(err => console.error(err));
 
 // gestational diabetes
@@ -221,8 +222,8 @@ axios(url_7)
     })
 
 
-    console.log(symp_female_pregnant)
-    console.log(symp_female_pregnant_causes)
+    // console.log(symp_female_pregnant)
+    // console.log(symp_female_pregnant_causes)
   }).catch(err => console.error(err));
 
 // skin conditions
@@ -257,9 +258,9 @@ axios(url_8)
       })
     });
 
-    console.log(symp_skin_rash);
-    console.log(symp_skin_rash_general);
-    console.log(symp_skin_irritation);
+    // console.log(symp_skin_rash);
+    // console.log(symp_skin_rash_general);
+    // console.log(symp_skin_irritation);
   }).catch(err => console.error(err));
 
 // ketoacidosis
@@ -284,7 +285,7 @@ axios(url_9)
       })
     })
 
-    console.log(symp_ketoacidosis);
+    // console.log(symp_ketoacidosis);
   }).catch(err => console.error(err));
 
 // Foot condition
@@ -309,8 +310,8 @@ axios(url_10)
       })
     })
 
-    console.log(symp_foot_neuropathy);
-    console.log(symp_foot_neuropathy_foot_ulcers);
+    // console.log(symp_foot_neuropathy);
+    // console.log(symp_foot_neuropathy_foot_ulcers);
   }).catch(err => console.error(err));
 
 // Coma
@@ -351,7 +352,7 @@ axios(url_11)
       })
     })
 
-    console.log(symp_coma);
+    // console.log(symp_coma);
   }).catch(err => console.error(err));
 
 // hyperglycemia
@@ -384,7 +385,7 @@ axios(url_12)
       })
     })
 
-    console.log(symp_hyperglycemia);
+    // console.log(symp_hyperglycemia);
   }).catch(err => console.error(err));
 
 // brittle
@@ -402,7 +403,6 @@ axios(url_13)
     })
 
     let data_arr2 = $('.js-health-article__content .js-section--symptoms-and-causes ul:nth-of-type(2) li').text().split('.');
-    console.log(data_arr2);
     data_arr2.pop();
     data_arr2.map(item => {
       symp_brittle.push({
@@ -426,7 +426,7 @@ axios(url_13)
       })
     })
 
-    console.log(symp_brittle);
+    // console.log(symp_brittle);
   }).catch(err => console.error(err));
 
 // retinopathy
@@ -444,7 +444,7 @@ axios(url_14)
       }
     }
 
-    console.log(symp_retinopathy);
+    // console.log(symp_retinopathy);
   }).catch(err => console.error(err));
 
 //diabetes - type 1 kids
@@ -452,18 +452,18 @@ axios(url_15)
   .then(res => {
     const html = res.data;
     const $ = cheerio.load(html);
-    let data_node = $('#main-content .content div:nth-of-type(2) ul:nth-of-type(1) li').text();
+    let data_node = $('#main-content .acces-list-container.rc-list + div + h2 + p + ul li');
 
-    // console.log('@@@', data_node);
-    // for(let i =0; i < data_node.length; i++ ){
-    //   if(data_node[i].name === 'li') {
-    //     symp_diab1_kids.push({
-    //       symp_retinopathy: Object.values(data_node[i].children[0])[1]
-    //     });
-    //   }
-    // }
 
-    console.log(symp_diab1_kids);
+    for(let i =0; i < data_node.length; i++ ){
+      if(data_node[i].name === 'li') {
+        symp_diab1_kids.push({
+          symp_diab1_kids: data_node[i].children[0].data
+        });
+      }
+    }
+
+    // console.log(symp_diab1_kids);
   }).catch(err => console.error(err));
 
 
@@ -472,18 +472,17 @@ axios(url_16)
   .then(res => {
     const html = res.data;
     const $ = cheerio.load(html);
-    let data_node = $('.main #main-content .content > div:nth-of-type(2)').text();
+    let data_node = $('#main-content .acces-list-container.rc-list + div + h2 + p + p + ul li');
 
-    // console.log('###', data_node);
-    // for(let i =0; i < data_node.length; i++ ){
-    //   if(data_node[i].name === 'li') {
-    //     symp_diab2_kids.push({
-    //       symp_diab2_kids: Object.values(data_node[i].children[0])[1]
-    //     });
-    //   }
-    // }
+    for(let i =0; i < data_node.length; i++ ){
+      if(data_node[i].name === 'li') {
+        symp_diab2_kids.push({
+          symp_diab2_kids: data_node[i].children[0].data
+        });
+      }
+    }
 
-    console.log(symp_diab2_kids);
+    // console.log(symp_diab2_kids);
   }).catch(err => console.error(err));
 
 
