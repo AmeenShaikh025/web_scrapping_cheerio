@@ -1,0 +1,273 @@
+[
+    {
+        "Type-1": [
+            "thirst (polydipsia)",
+            "constant hunger",
+            "weight loss",
+            "vision changes",
+            "Increased thirst",
+            "Frequent urination",
+            "Extreme hunger",
+            "Unexplained weight loss",
+            "Presence of ketones in the urine (ketones are a byproduct of the breakdown of muscle and fat that happens when there's not enough available insulin)",
+            "Fatigue",
+            "Irritability",
+            "Blurred vision",
+            "Slow-healing sores",
+            "Frequent infections, such as gums or skin infections and vaginal infections",
+            "vomiting or stomach pains"
+        ]
+    },
+    {
+        "Type-1(Kids)": [
+            "Increased thirst",
+            "Frequent urination, possibly bed-wetting in a toilet-trained child",
+            "Extreme hunger",
+            "Unintentional weight loss",
+            "Fatigue",
+            "Irritability or behavior changes",
+            "Fruity-smelling breath"
+        ]
+    },
+    {
+        "Insipidus": [
+            "Being extremely thirsty",
+            "Producing large amounts of pale urine",
+            "Frequently needing to get up to urinate during the night",
+            "Preferring cold drinks"
+        ],
+        "Insipidus(Kids)": [
+            "Heavy, wet diapers",
+            "Bed-wetting",
+            "Trouble sleeping",
+            "Fever",
+            "Vomiting",
+            "Constipation",
+            "Delayed growth",
+            "Weight loss"
+        ]
+    },
+    {
+        "Type-2(Kids)": [
+            "Increased thirst",
+            "Frequent urination",
+            "Increased hunger",
+            "Fatigue",
+            "Blurry vision",
+            "Darkened areas of skin, most often around the neck or in the armpits and groin",
+            "Unintended weight loss, although this is less common in children with type 2 diabetes than in children with type 1 diabetes",
+            "Frequent infections"
+        ]
+    },
+    {
+        "Type-2": [
+            "Increased thirst",
+            "Frequent urination",
+            "Increased hunger",
+            "Unintended weight loss",
+            "Fatigue",
+            "Blurred vision",
+            "Slow-healing sores",
+            "Frequent infections",
+            "Numbness or tingling in the hands or feet",
+            "Areas of darkened skin, usually in the armpits and neck"
+        ]
+    },
+    {
+        "Retinopathy": [
+            "gradually worsening vision",
+            "sudden vision loss",
+            "shapes floating in your field of vision ",
+            "blurred or patchy vision",
+            "eye pain or redness",
+            "difficulty seeing in the dark"
+        ]
+    },
+    {
+        "Symptoms(male)": [
+            " Decreased sex drive",
+            " erectile dysfunction",
+            " decreased muscle strength."
+        ],
+        "Symptoms(female)": [
+            " Dry and itchy skin",
+            " frequent yeast infections or urinary tract infections"
+        ]
+    },
+    {
+        "Brittle": [
+            "Celiac disease",
+            "Eating disorders",
+            "Gastroparesis",
+            "adrenal insufficiency",
+            "hypothyroidism",
+            "Stress",
+            "anxiety",
+            "depression",
+            "Dizziness, weakness or shaking",
+            "Fast heart rate",
+            "Irritability or confusion",
+            "Pale skin",
+            "Restless sleep",
+            "Sweating",
+            "Sudden hunger",
+            "Blurry vision",
+            "Fatigue (feeling weak, tired)",
+            "Frequent urination (peeing)",
+            "Headache",
+            "Skin infections and slow-healing cuts",
+            "Thirst or hunger",
+            "Confusion",
+            "Dehydration",
+            "Fast heart rate",
+            "Fruity-smelling breath",
+            "Trouble breathing",
+            "Vomiting",
+            "Coma"
+        ]
+    },
+    {
+        "Symptoms(female_pregnant)": [
+            "Frequent urination",
+            " Nausea",
+            " Thirst",
+            " Tiredness"
+        ],
+        "Causes(female_pregnant)": [
+            "Heart disease",
+            " High blood pressure",
+            " Inactivity",
+            " Obesity",
+            " Personal or family history of GD",
+            " Polycystic ovary syndrome (PCOS)",
+            " Previous birth of a baby weighing nine pounds or more"
+        ]
+    },
+    {
+        "Ketoacidosis": [
+            "Peeing more often than usual (frequent urination)",
+            "Extreme thirst",
+            "Dehydration",
+            "Headache",
+            "High amounts of ketones in your pee or blood (as shown by at-home urine ketone test strips or a blood meter test)",
+            "High blood glucose (blood sugar) levels (over 250 mg/dL)",
+            "Nausea and vomiting",
+            "Abdominal pain",
+            "Shortness of breath",
+            "Fruity-smelling breath",
+            "Feeling very tired or weak",
+            "Feeling disoriented or confused",
+            "Decreased alertness"
+        ]
+    },
+    {
+        "Symptoms(common)": [
+            "Increased thirst",
+            "Weak, tired feeling",
+            "Blurred vision",
+            "Numbness or tingling in the hands or feet",
+            "Slow-healing sores or cuts",
+            "Unplanned weight loss",
+            "Frequent urination",
+            "Frequent unexplained infections",
+            "Dry mouth",
+            "increased thirst and urination",
+            "increased hunger",
+            "fatigue",
+            "blurred vision",
+            "numbness or tingling in the feet or hands",
+            "sores that do not heal",
+            "unexplained weight loss"
+        ]
+    },
+    {
+        "Coma": [
+            "Tiredness",
+            "Abdominal pain",
+            "Shortness of breath",
+            "Increased urination",
+            "Weak pulse",
+            "Drowsiness",
+            "Walking unsteadily",
+            "Increased thirst",
+            "Rapid heart rate",
+            "Dry mouth",
+            "Fruity smell to your breath",
+            "Hunger",
+            "Weakness and tiredness",
+            "Sweating",
+            "Fast breathing",
+            "Shakiness, nervousness and/or anxiety",
+            "Nausea",
+            "Confusion and problems communicating",
+            "Light-headedness, dizziness",
+            "Hunger",
+            "Drinking too much alcohol",
+            "Eating too little",
+            "Exercising too much",
+            "Taking too much insulin"
+        ]
+    },
+    {
+        "Hyperglycemia": [
+            "High blood sugar",
+            "Increased thirst and/or hunger",
+            "Blurred vision",
+            "Frequent urination (peeing)",
+            "Headache",
+            "Fatigue (feeling weak, tired)",
+            "Weight loss",
+            "Vaginal and skin infections",
+            "Slow-healing cuts and sores",
+            "Vomiting",
+            "Dehydration",
+            "Unusual fruity smell on the breath",
+            "Deep labored breathing or hyperventilation",
+            "Rapid heartbeat",
+            "Confusion and disorientation",
+            "Coma"
+        ]
+    },
+    {
+        "Skin_Rash": [
+            "Blisters (bullosis diabeticorum)",
+            " Diabetes-related dermopathy",
+            "Digital sclerosis",
+            "Necrobiosis lipoidica diabeticorum (NLD)",
+            "Diabetes Foot Syndrome"
+        ],
+        "Skin_Rash(General)": [
+            "Acanthosis nigricans (AN)",
+            "Disseminated granuloma annulare",
+            "Eruptive xanthomatosis",
+            " Vitiligo",
+            " Skin tags",
+            "Lichen planus"
+        ],
+        "Skin_Irritation": [
+            "Allergic reactions",
+            " Bacterial infections",
+            "Dry, itchy skin",
+            " Fungal infections"
+        ]
+    },
+    {
+        "Foot_Neuropathy": [
+            "Darkened skin on the affected area",
+            "Diminished ability to sense hot or cold",
+            "Loss of hair in the area",
+            "Numbness",
+            "Pain",
+            "Tingling"
+        ],
+        "Foot_Neuropathy(Foot_Ulcers)": [
+            "Any changes to the skin or toenails, including cuts, blisters, calluses or sores",
+            "Discharge of fluid or pus",
+            "Foul smell",
+            "Pain",
+            "Redness",
+            "Skin discoloration",
+            "Swelling"
+        ]
+    }
+]
